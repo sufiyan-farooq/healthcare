@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -64,7 +65,7 @@
        
     
     </div> 
-    <div class="hero-image">
+    <div class="hero-image" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
     <img src="image-font/heroimage.PNG" alt="">
     </div>
     
@@ -139,14 +140,14 @@
 </div>
 </div>
 
-<div class="sec3-image" >
+<div class="sec3-image" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
   <img src="image-font/card1.png" alt="">
 </div>
 
 </div>
 <br><br><br>
 
-<div class="service-provide" >
+<div class="service-provide" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
   <h1>Services we provide</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar <br> elementum tempus hac tellus libero accumsan. </p>
 </div>
@@ -155,8 +156,8 @@
 
 
 
-<div class="sec4-firstsec">
- <div class="cards">
+<div class="sec4-firstsec" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+ <div class="cards" >
   <div class="card__corner"></div>
   <div class="card__img">
     <img src="image-font/card11.png" alt="">
@@ -191,7 +192,7 @@
 </div> 
 
 </div>
-<div class="sec4-secondsec">
+<div class="sec4-secondsec" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
   <div class="cards">
    <div class="card__corner"></div>
    <div class="card__img">
@@ -229,11 +230,11 @@
  </div>
  
 
-<div class="meet-team">
+<div class="meet-team" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
 <h1>Meet our team members</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat gravida <br> malesuada quam commodo id integer nam.</p>
 </div>
-  <div class="team">
+  <div class="team" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
  <div id="cardes">
   <div class="header">
     <div class="avi"></div>
@@ -286,7 +287,7 @@
 </div> 
 
  
-<div class="team1">
+<div class="team1" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
   <div id="cardes">
     <div class="header">
       <div class="avi4"></div>
@@ -343,14 +344,14 @@
 
 
  
-<div class="client">
+<div class="client" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
 <h1>Testimonial</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar <br> elementum tempus hac tellus libero accumsan. </p>
 </div>
 
 
 
-<div class="client-message">
+<div class="client-message" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
 <div class="testinomal">
 <div class="image" style="background-color: #fff !important; border-radius: 20px;">
 <img src="image-font/test1.png" alt="">
@@ -547,11 +548,18 @@
     <script src="app.js">
 
     </script>
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     
 
-    <script>
-      AOS.init();
-    </script>
+   
     <script src="https://kit.fontawesome.com/2ab38ab271.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>

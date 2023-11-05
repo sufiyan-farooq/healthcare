@@ -25,7 +25,7 @@
     position: fixed;
     z-index: 999;
     background-color: #ececec;
-     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;  */
   }
 
   .nav-title img{
@@ -211,6 +211,288 @@ background-color: #007E85;
 
   .title img{
     width: 100%;
-    height: 550px;
+    height: 600px;
     margin-top: 30px;
   }
+  .contact-us{
+    margin-top: 80px;
+    text-align: center;
+    
+  }
+.contact-us h3{
+  font-family: latobold;
+  font-size: 20px;
+}
+.contact-us h1{
+  margin-top: 30px;
+  font-family: latobold;
+  font-size: 60px;
+}
+.contact-us p{
+  margin-top: 20px;
+  font-family: lato;
+  font-weight: 200;
+  font-size: 20px;
+}
+.form-firstline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.form-secondline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.first-name p{
+  font-family: lato;
+  font-size: 20px;
+
+}
+.first-name input{
+  border: 2px solid #007E85;
+  padding: 13px;
+  padding-right: 220px;
+  border-radius: 10px;
+}
+
+.topic{
+  border: 2px solid #007E85;
+  padding: 13px;
+  padding-right: 730px;
+  border-radius: 10px;
+  
+}
+.choose-topic p{
+  font-family: lato;
+  font-size: 20px;
+
+}
+.choose-topic{
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.message-box p{
+  font-family: lato;
+  font-size: 20px;
+
+}
+.message-box{
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.message{
+  border: 2px solid #007E85;  
+  border-radius: 10px;
+  
+}
+.checkbox{
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.checkbox label{
+  font-size: 18px;
+  font-family: lato;
+}
+
+.submit-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-btn button{
+  background-color: #007E85 !important;
+  border: none;
+  padding: 10px;
+  padding-left: 120px;
+  padding-right: 120px;
+  color: #fff;
+  font-family: latobold;
+  font-size: 15px;
+  border-radius: 10px;
+
+}
+.submit-btn button:hover{
+  background-color: #074f53 !important;
+}
+
+
+.subscribe h1{
+  font-family: latobold;
+  font-size: 30px;
+  margin-top: 80px;
+  text-align: center;
+}
+.subscribe-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.subscribe-input input{
+padding: 14px;
+background-color: #fff !important;
+border: none;
+padding-right: 170px;
+border-radius: 25px;
+}
+.sub-btn {
+  background-color: #007E85 !important;
+  color: #fff;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  padding-left: 35px;
+  padding-right:35px;
+  margin-left: 20px;
+  font-family: latobold;
+}
+.sub-btn:hover{
+  background-color: #005458 !important;
+}
+
+@media screen and (max-width:1024px) {
+  .topic{
+    padding-right: 600px;
+  }
+.message-box textarea{
+  width: 750px;
+}
+
+}
+@media screen and (max-width:920px) {
+  .topic{
+    padding-right: 320px;
+  }
+.message-box textarea{
+  width: 500px;
+}
+.submit-btn{
+  margin-top: 50px;
+}
+
+}
+@media screen and (max-width:830px) {
+  .topic{
+    padding-right: 270px;
+  }
+.message-box textarea{
+  width: 420px;
+}
+.submit-btn{
+  margin-top: 50px;
+}
+.message-box{
+  margin-left: 140px;
+}
+.choose-topic{
+  margin-left: 140px;
+}
+.checkbox{
+  margin-left: 150px;
+}
+}
+@media screen and (max-width:430px) {
+  .topic{
+    padding-right: 210px;
+  }
+.message-box textarea{
+  width: 360px;
+}
+.submit-btn{
+  margin-top: 50px;
+}
+.message-box{
+  margin-left: 20px;
+}
+.choose-topic{
+  margin-left: 20px;
+}
+.checkbox{
+  margin-left: 20px;
+}
+.first-name input{
+  padding-right: 170px;
+}
+.subscribe-input{
+  display: block;
+}
+.subscribe h1{
+  font-size: 25px;
+}
+.sub-btn{
+  margin-top: 30px;
+  margin-left: 120px;
+
+}
+.title img{
+  height:350px;
+}
+}
+@media screen and (max-width:385px) {
+  .topic{
+    padding-right: 170px;
+  }
+.message-box textarea{
+  width: 310px;
+}
+.submit-btn{
+  margin-top: 50px;
+}
+.message-box{
+  margin-left: 20px;
+}
+.choose-topic{
+  margin-left: 20px;
+}
+.checkbox{
+  margin-left: 20px;
+}
+.first-name input{
+  padding-right: 120px;
+}
+.subscribe-input{
+  display: block;
+}
+.subscribe h1{
+  font-size: 25px;
+}
+.sub-btn{
+  margin-top: 30px;
+  margin-left: 120px;
+
+}
+}
+
+.footer{
+  color:#fff;
+  background-color: #007E85 !important;
+
+}
+
+.list-style{
+  list-style-type:none!important;
+  cursor:pointer;
+  font-size:.75rem;
+  opacity:.8;
+}
+.copy-right{
+  font-size:.75rem;
+  opacity:.8;
+}
+.Analyst {
+  width: 87.7px;
+  height: 23.7px;
+  color: #fff;
+}
+.list-style  li:hover{
+  color: #bebcbc;
+  
+}
+.footer-img img{
+background-color: #007E85 !important;
+width: 60px;
+}

@@ -1,55 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="contact.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-</head>
-<body>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="container-fluid">
-        <nav class="nav">
-            <input type="checkbox" id="nav-check">
-            <div class="nav-header">
-              <div class="nav-title">
-              <a href="index.html"> <img src="image-font/Frame go_preview_rev_2.png" alt=""></a>
-              </div>
-            </div>
-            <div class="nav-btn">
-              <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
-            </div>
-            
-            <ul class="nav-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Contact us
-              </a></li>
-              <li><a href="">Help</a></li>
-              <li><a href="">Blog</a></li>
-              <button class="signup-btn">Sign Up</button>
-              <button class="loginBtn" >
-                Log In
-                </button>
-              
-            
+      <nav class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="index.html">
+              <img src="image-font/Frame go_preview_rev_2.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
 
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html">Contact us </a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Blog</a></li>
+          <button class="signup-btn">Sign Up</button>
+          <button class="loginBtn">Log In</button>
+        </ul>
+      </nav>
+      <br /><br /><br />
+    </div>
 
-            </ul>
-          </nav><br><br><br>
-     
+    <div class="title">
+      <img src="image-font/Rectangle 1548.png" alt="" />
+    </div>
+
+    <div class="container">
+
+      <div class="contact-us">
+        <h3>Get in Touch</h3>
+        <h1>Contact Us</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="form">
+        <div class="form-firstline">
+          <div class="first-name">
+            <p>First name</p>
+            <input type="text" placeholder="Enter your first name" />
           </div>
 
-<div class="title">
-    <img src="image-font/Rectangle 1548.png" alt="">
+          <div class="first-name">
+            <p>Last name</p>
+            <input type="text" placeholder="Enter your last name" />
+          </div>
+        </div>
+
+
+
+
+
+        <div class="form-secondline">
+          <div class="first-name">
+            <p>Email</p>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+
+          <div class="first-name">
+            <p>Phone number</p>
+            <input type="number" placeholder="Enter your number" />
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="choose-topic">
+          <p>Choose a topic</p>
+          <select name="dog-names" class="topic"> 
+            <option value="rigatoni">Select one...</option> 
+            <option value="dentist">Dentist</option> 
+            <option value="brain surgeon">brain surgeon</option> 
+            <option value="orthopedic">orthopedic</option>
+            <option value="eye specialist">eye specialist</option> 
+            <option value="heart specialist">heart specialist</option> 
+            <option value="bones specialist">bones specialist</option> 
+
+
+        </select>       
+        </div>
+ 
+<div class="message-box">
+  <p>Message</p>
+<textarea class="message"  name="message" id="message" cols="115" rows="8" placeholder="Type Your message" style="padding: 10px;">
+</textarea>
+</div>
+
+<div class="checkbox">
+  <input type="checkbox" id="scales" name="acceptterms" checked />
+  <label for="acceptterms">I accept the terms</label>
 </div>
 
 
+<div class="submit-btn">
+<button>Submit</button>
+</div>
+
+
+      </div>
+
+
+
+
+
+      <div class="subscribe" >
+        <h1>Subscribe to our news letter</h1>
+      </div>
+      
+      <div class="subscribe-input">
+        <input type="text" name="" id="" placeholder="Enter your email">
+        <button class="sub-btn">Subscribe</button>
+      </div>
+
+
+    </div>
 
 
 
@@ -57,23 +148,99 @@
 
 
 
+    
+    <footer class="text-center footer text-center" style="margin-top: 100px; ">
+      <div class=" p-4" style="background-color: #007E85 !important;">
+        
+          <div class="row  text-md-start mt-5" style="background-color: #007E85 !important;" >
+            
+              <!--Logo Start-->
+            <div class="col-md-4 footer-img " style="background-color: #007E85 !important; ">
+              <h4 class="pb-3" style="background-color: #007E85 !important; padding-left: 30px ; font-family: latobold;" > <img src="image-font/image 16.png" alt="">HealthCare</h4>
+              
+              <p class="copy-right" style="background-color: #007E85 !important; padding-left: 40px;"> Copyright © 2008-2019 RPX Corporation. <br>All Rights Reserved.</p>
+            </div>
+            <!--Logo end-->
+            
+              <!--Solutions Start-->
+            <div class="col-md-2"style="background-color: #007E85 !important;">
+             <h5 class="pb-3" style="background-color: #007E85 !important;">Product </h5>
+              <ul class="list-style ps-0 ">
+                <li class="pb-3" style="background-color: #007E85 !important;">Feature</li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Pricing</li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Case studies</li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Reviews</li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Updates</li>
+             
+              </ul>
+            </div>
+            <!--Solutions end-->
+            
+              
+              <!--Quick links Start-->
+            <div class="col-md-2 " style="background-color: #007E85 !important;">
+             <h5 class="pb-3" style="background-color: #007E85 !important;"> Company </h5>
+              <ul class="list-style ps-0">
+                <li class="pb-3" style="background-color: #007E85 !important;">About </li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Contact us</li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Careers</li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Culture</li>
+                <li class="pb-3" style="background-color: #007E85 !important;">Blog</li>
+
+              </ul>
+            </div>
+
+            <div class="col-md-2 " style="background-color: #007E85 !important;">
+              <h5 class="pb-3" style="background-color: #007E85 !important;"> Support </h5>
+               <ul class="list-style ps-0">
+                 <li class="pb-3" style="background-color: #007E85 !important;">Getting started</li>
+                 <li class="pb-3" style="background-color: #007E85 !important;">Help center</li>
+                 <li class="pb-3" style="background-color: #007E85 !important;">Server status</li>
+                 <li class="pb-3" style="background-color: #007E85 !important;">Report a bug</li>
+                 <li class="pb-3" style="background-color: #007E85 !important;">Chat support
+                 </li>
+
+               </ul>
+             </div>
+            <!--QUick links end-->
+           
+            <!--Other Start-->
+            <div class="col-md-2 " style="background-color: #007E85 !important;">
+             <h5 class="pb-3" style="background-color: #007E85 !important;"> Follow us </h5>
+              <ul class="list-style ps-0">
+                <li class="pb-3" style="background-color: #007E85 !important;"> <i class=" facebook fa-brands fa-facebook-f" style="background-color:#fff !important; padding: 8px; border-radius: 8px; color: #555555;"></i>&nbsp;&nbsp;Facebook</li>
+                <li class="pb-3" style="background-color: #007E85 !important;"><i class=" fa-brands fa-twitter" style="background-color:#fff !important; padding: 8px; border-radius: 8px; color: #555555;"></i>&nbsp;&nbsp;Twitter</li>
+                <li class="pb-3" style="background-color: #007E85 !important;"><i class=" fa-brands fa-instagram" style="background-color:#fff !important; padding: 8px; border-radius: 8px; color:#555555;"></i> &nbsp;&nbsp;Instagram</li>
+                <li class="pb-3" style="background-color: #007E85 !important;"><i class="fa-brands fa-linkedin-in" style="background-color:#fff !important; padding: 8px; border-radius: 8px; color:#555555;"></i> &nbsp;&nbsp; Linkdin</li>
+                <li class="pb-3" style="background-color: #007E85 !important;"><i class="fa-brands fa-youtube" style="background-color:#fff !important; padding: 8px; border-radius: 8px; color:#555555;"></i> &nbsp;&nbsp;Youtube</li>
+              </ul>
+            </div>
+    </div>
+      </div>
+    </footer>
 
 
 
 
+    <script
+      src="https://kit.fontawesome.com/2ab38ab271.js"
+      crossorigin="anonymous"
+    ></script>
 
-
-
-
-
-
-
-
-
-    <script src="https://kit.fontawesome.com/2ab38ab271.js" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
